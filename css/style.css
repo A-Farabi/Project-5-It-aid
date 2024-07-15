@@ -1,0 +1,60 @@
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.primary-btn{
+    background-color: #FF5400;
+    border: none;
+    padding: 1em;
+}
+/* newsletter section */
+.newsletter-controller{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10% 0%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6em; */
+}
+.form-side{
+    border-radius: 16px;
+    border: 1px solid #FF5400;  
+    height: 100%;
+}
+.form-content{
+    padding: 2.5em;
+}
+.form-content h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.form-content p{
+    margin: 1em 0em;
+}
+.form input{
+    width: 96%;
+    padding: 1em 0 1em 1em;
+    margin-top: 1.5em;
+}
+.form input:last-child{
+    margin-top: 1em;
+}
+.form button{
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.child-div{
+    border-radius: 1em;
+    /* transform: rotate(-19.628deg); */
+    width: calc((100% - 51.78571428571429));
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.newsletter-image{
+    position: relative;
+}
